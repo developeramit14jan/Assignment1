@@ -77,3 +77,17 @@ function fillTable() {
     }
 
 }
+
+// deleting row from bottom
+deleteRowFromBottom.addEventListener('click', function () {
+    var lastIndex = tableArray.length - 1;
+    tableArray.pop(lastIndex);
+    fillTable();
+
+});
+// deleting row from top
+deleteRowFromTop.addEventListener('click' , function(){
+    var firstIndex = 0;
+    tableArray.shift(firstIndex);
+    fillTable();
+})
