@@ -1,0 +1,47 @@
+#bodyData{
+    display: flex;
+    margin:10px;
+    padding:20px;
+    width: 100%;
+    font-style: oblique;
+}
+
+#firstName , #lastName , #country , #city{
+    padding:7px;
+    width :60%;
+    font-size: 15px;
+    background-color: rgb(242,242,242);
+    border:1px solid lightgrey;
+    font-family:cursive;
+    color: white;
+}
+#addDataToBottom , #addDataToTop{
+    padding: 7px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+span{
+    font-size: 20px;
+}
+#dataToAdded{
+    width: 50%;
+    float: left;
+}
+/* style table */
+table{
+    text-align: left;
+    border-collapse:collapse
+}
+th,td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: cursive;
+    border:1px solid grey;
+}
+tr:nth-child(even){
+    background-color:lightgray;;
+}
